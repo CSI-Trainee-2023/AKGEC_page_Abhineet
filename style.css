@@ -3,7 +3,8 @@
     header{
         /* border: 2px solid red; */
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        display: inline-block;
+        display: flex;
+        flex-wrap: wrap;
         margin: 0px;
         padding: 0px;
         position: sticky;
@@ -11,10 +12,10 @@
         background-color: white;
     }
     .item{
-      padding: 7px;
-      margin: 2px;
-      
+      margin-left: 11rem;
     }
+      
+    
     .aboutText{
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       display: inline;
@@ -31,16 +32,19 @@
       height: 50px;
     }
     .container{
-      height: 144px;
-      width: 1500px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      margin: 0px;
+      padding: 0px;
+      background-color: white;
+      top: 1px;
 
     }
+    
     .about{
       display: flex;
-      width: 1500px;
+      
       flex-wrap: wrap;
       /* justify-content: center; */
       justify-content: space-evenly;
@@ -58,13 +62,16 @@
     }
    
   .navbar{
-    margin-top: 20px;
-    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
     color: white;
     text-align: center;
     background-color: rgb(49, 47, 47);
     box-shadow: 0 10px 10px 0 rgba(0,0,0,.8);
     border-radius: 0%;
+    width: 111%;
+    padding: 0%;
+    margin: 0%;
     
   }
 
@@ -94,6 +101,7 @@
     margin: 0%;
     padding: 0%;
   }
+  
   .lower ul {
     list-style-type: none;
     margin: 0;
@@ -105,14 +113,18 @@
   #slider {
     overflow: hidden;
   }
+  #naacPoster{
+    display: flex;
+    flex-wrap: wrap;
+  }
   #techName{
     font-size: medium;
-    display: block;
+    display: inline;
   }
   .tech{
     height: 308px;
       width: 362px;
-      display: block;
+      display: inline;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
@@ -135,7 +147,7 @@
 
   }
   #techImage{
-    display: block;
+    display: inline;
     border-radius: 10%;
     text-align: center;
   }
